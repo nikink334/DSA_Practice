@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     // Two types of increment: ++ (increment) and -- (decrement)
 
-    // 🟢 Increment Operators
+    // Increment Operators
     int a = 10;
     int b = a++; // Post-increment: Assign 'a' to 'b' first, then increment 'a'
     cout << "Post-Increment: " << endl;
@@ -17,7 +17,7 @@ int main() {
     cout << "d (updated c): " << d << endl; // Output: 11
     cout << "c (after increment): " << c << endl; // Output: 11
 
-    // 🔴 Decrement Operators
+    //  Decrement Operators
     int x = 10;
     int y = x--; // Post-decrement: Assign 'x' to 'y' first, then decrement 'x'
     cout << "\nPost-Decrement: " << endl;
